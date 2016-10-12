@@ -6,6 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --hot --progress --colors --content-base app/",
     "build": "webpack --progress --colors",
+    "predocs:publish": "npm run build",
     "docs:publish": "gh-pages -t -d ./app"
   },
   "author": "Blaine Schmeisser",
