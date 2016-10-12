@@ -8,25 +8,21 @@
     ;function random (min, max) {
       return min + Math.floor(Math.random() * (max - min + 1));
     }
-    switch (random(1, 2)) {
+    switch (random(1, 4)) {
       case 1:
         // pro staging
-        // https://staging.newrelic.com/accounts/550352/browser/575530
         ;NREUM.info={beacon:"staging-bam.nr-data.net",errorBeacon:"staging-bam.nr-data.net",licenseKey:"2fec6ab188",applicationID:"575530",sa:1}
         break;
       case 2:
         // lite staging
-        // https://staging.newrelic.com/accounts/835096/browser/575591
         ;NREUM.info={beacon:"staging-bam.nr-data.net",errorBeacon:"staging-bam.nr-data.net",licenseKey:"86cca7f181",applicationID:"575591",sa:1}
         break;
       case 3:
         // pro production
-        // https://rpm.newrelic.com/accounts/1/browser/27679902
         ;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"3aec00a5a8",applicationID:"27679902",sa:1}
         break;
       case 4:
         // lite production
-        // https://rpm.newrelic.com/accounts/1449208/browser/27679991
         ;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"3aec00a5a8",applicationID:"27679902",sa:1}
         break;
       default:
