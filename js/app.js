@@ -1,37 +1,22 @@
 import React, { Component } from 'react'
 import { render } from 'react-dom'
-import { Router, Route, IndexRoute, Link, hashHistory } from 'react-router'
+import { Router, Route, IndexRoute, hashHistory } from 'react-router'
 
-import { Login } from './components/login'
+import { Header } from './components/header'
+import { Home } from './components/home'
+import { Ajax } from './components/ajax'
+import { Error } from './components/error'
+import { Slow } from './components/slow'
 
 class App extends Component {
   render() {
     return (
       <div>
-        <h1>App</h1>
-        <ul>
-          <li><Link to='/'>home</Link></li>
-          <li><Link to='/login'>login</Link></li>
-          <li><Link to='/broken'>broken</Link></li>
-        </ul>
-        {this.props.children}
+        <Header />
+        <div className='content'>
+          {this.props.children}
+        </div>
       </div>
-    )
-  }
-}
-
-class Home extends Component {
-  render() {
-    return (
-      <span>Home!</span>
-    )
-  }
-}
-
-class NoMatch extends Component {
-  render() {
-    return (
-      <span>ruff</span>
     )
   }
 }
@@ -40,8 +25,9 @@ const routes = (
   <Router history={hashHistory}>
     <Route path="/" component={App}>
       <IndexRoute component={Home} />
-      <Route path="login" component={Login}/>
-      <Route path="*" component={NoMatch}/>
+      <Route path="ajax" component={Ajax}/>
+      <Route path="error" component={Error}/>
+      <Route path="slow" component={Slow}/>
     </Route>
   </Router>
 )
