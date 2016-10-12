@@ -27586,7 +27586,11 @@
 	    key: 'render',
 	    value: function render() {
 	      if (window.newrelic) {
-	        window.newrelic.noticeError(new Error('Failed to load resource'));
+	        try {
+	          throw new Error('Failed to load resource');
+	        } catch (e) {
+	          window.newrelic.noticeError(e);
+	        }
 	      }
 	      return _react2.default.createElement('span', null, 'We threw an error!');
 	    }
