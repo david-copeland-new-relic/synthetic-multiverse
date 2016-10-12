@@ -4,7 +4,8 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "webpack-dev-server --hot --progress --colors --content-base app/",
+    "prestart": "rm -rf app/build",
+    "start": "webpack-dev-server --inline --hot --progress --colors --content-base app/",
     "build": "webpack --progress --colors",
     "predocs:publish": "npm run build",
     "docs:publish": "gh-pages -t -d ./app"
