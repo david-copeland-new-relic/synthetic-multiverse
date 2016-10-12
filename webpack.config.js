@@ -1,14 +1,14 @@
 var webpack = require('webpack')
 
 module.exports = {
+  context: __dirname + '/app',
   entry: [
-    'webpack/hot/only-dev-server',
     './js/app.js'
   ],
   output: {
-    path: __dirname + '/build',
+    path: __dirname + '/app/build',
     filename: 'bundle.js',
-    publicPath : '/build'
+    publicPath : './app/'
   },
   module: {
     loaders: [
