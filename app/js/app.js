@@ -8,6 +8,10 @@ import { Ajax } from './components/ajax'
 import { Error } from './components/error'
 import { Slow } from './components/slow'
 
+import promise from 'es6-promise'
+
+promise.polyfill()
+
 class App extends Component {
   render() {
     return (
