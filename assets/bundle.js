@@ -27289,7 +27289,7 @@
 	  _createClass(Header, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement('div', null, _react2.default.createElement('h1', null, 'Demo Application'), _react2.default.createElement('ul', null, _react2.default.createElement('li', null, _react2.default.createElement(_reactRouter.Link, { to: '/' }, 'home')), _react2.default.createElement('li', null, _react2.default.createElement(_reactRouter.Link, { to: 'ajax', activeClassName: 'active' }, 'Ajax')), _react2.default.createElement('li', null, _react2.default.createElement(_reactRouter.Link, { to: 'error', activeClassName: 'active' }, 'Error')), _react2.default.createElement('li', null, _react2.default.createElement(_reactRouter.Link, { to: 'slow', activeClassName: 'active' }, 'Slow'))));
+	      return _react2.default.createElement('div', null, _react2.default.createElement('h1', null, 'Demo Application'), _react2.default.createElement('ul', null, _react2.default.createElement('li', { className: 'home' }, _react2.default.createElement(_reactRouter.Link, { to: '/' }, 'home')), _react2.default.createElement('li', { className: 'ajax' }, _react2.default.createElement(_reactRouter.Link, { to: 'ajax', activeClassName: 'active' }, 'Ajax')), _react2.default.createElement('li', { className: 'error' }, _react2.default.createElement(_reactRouter.Link, { to: 'error', activeClassName: 'active' }, 'Error')), _react2.default.createElement('li', { className: 'slow' }, _react2.default.createElement(_reactRouter.Link, { to: 'slow', activeClassName: 'active' }, 'Slow'))));
 	    }
 	  }]);
 
