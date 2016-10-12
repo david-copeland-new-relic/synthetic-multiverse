@@ -7,6 +7,7 @@ import { Home } from './components/home'
 import { Ajax } from './components/ajax'
 import { Error } from './components/error'
 import { Slow } from './components/slow'
+import { Links } from './components/links'
 
 import promise from 'es6-promise'
 
@@ -51,6 +52,7 @@ const routes = (
       <Route path="ajax" component={Ajax}/>
       <Route path="error" component={Error}/>
       <Route path="slow" component={Slow}/>
+      <Route path="links" component={Links}/>
     </Route>
   </Router>
 )
