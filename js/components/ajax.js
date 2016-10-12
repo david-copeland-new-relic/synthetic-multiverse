@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import fetch from 'isomorphic-fetch'
 
 export class Ajax extends Component {
   constructor (props) {
