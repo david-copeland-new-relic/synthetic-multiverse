@@ -7,10 +7,10 @@ export class Header extends Component {
       <div>
         <h1>Demo Application</h1>
         <ul>
-          <li><Link to='/'>home</Link></li>
-          <li><Link to='ajax' activeClassName='active'>Ajax</Link></li>
-          <li><Link to='error' activeClassName='active'>Error</Link></li>
-          <li><Link to='slow' activeClassName='active'>Slow</Link></li>
+          <li className='home'><Link to='/'>home</Link></li>
+          <li className='ajax'><Link to='ajax' activeClassName='active'>Ajax</Link></li>
+          <li className='error'><Link to='error' activeClassName='active'>Error</Link></li>
+          <li className='slow'><Link to='slow' activeClassName='active'>Slow</Link></li>
         </ul>
       </div>
     )
