@@ -137,7 +137,7 @@
 	  var nextRouteName = next.routes.map(function (route) {
 	    return route.path;
 	  }).filter(Boolean).join('');
-	  var routeName = nextRouteName;
+	  var routeName = 'multiverse' + nextRouteName;
 	  var interaction = newrelic.interaction();
 
 	  if (newrelic.setCurrentRouteName) {
@@ -165,13 +165,13 @@
 	    return;
 	  }
 
-	  __REACT_HOT_LOADER__.register(App, 'App', '/Users/bschmeisser/projects/example/app/js/app.js');
+	  __REACT_HOT_LOADER__.register(App, 'App', '/Users/bschmeisser/projects/synthetic-multiverse/app/js/app.js');
 
-	  __REACT_HOT_LOADER__.register(trackRouteChange, 'trackRouteChange', '/Users/bschmeisser/projects/example/app/js/app.js');
+	  __REACT_HOT_LOADER__.register(trackRouteChange, 'trackRouteChange', '/Users/bschmeisser/projects/synthetic-multiverse/app/js/app.js');
 
-	  __REACT_HOT_LOADER__.register(trackLoad, 'trackLoad', '/Users/bschmeisser/projects/example/app/js/app.js');
+	  __REACT_HOT_LOADER__.register(trackLoad, 'trackLoad', '/Users/bschmeisser/projects/synthetic-multiverse/app/js/app.js');
 
-	  __REACT_HOT_LOADER__.register(routes, 'routes', '/Users/bschmeisser/projects/example/app/js/app.js');
+	  __REACT_HOT_LOADER__.register(routes, 'routes', '/Users/bschmeisser/projects/synthetic-multiverse/app/js/app.js');
 	}();
 
 	;
@@ -182,29 +182,29 @@
 	    return;
 	  }
 
-	  __REACT_HOT_LOADER__.register(_createClass, '_createClass', '/Users/bschmeisser/projects/example/app/js/app.js');
+	  __REACT_HOT_LOADER__.register(_createClass, '_createClass', '/Users/bschmeisser/projects/synthetic-multiverse/app/js/app.js');
 
-	  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/bschmeisser/projects/example/app/js/app.js');
+	  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/bschmeisser/projects/synthetic-multiverse/app/js/app.js');
 
-	  __REACT_HOT_LOADER__.register(_es6Promise2, '_es6Promise2', '/Users/bschmeisser/projects/example/app/js/app.js');
+	  __REACT_HOT_LOADER__.register(_es6Promise2, '_es6Promise2', '/Users/bschmeisser/projects/synthetic-multiverse/app/js/app.js');
 
-	  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/bschmeisser/projects/example/app/js/app.js');
+	  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/bschmeisser/projects/synthetic-multiverse/app/js/app.js');
 
-	  __REACT_HOT_LOADER__.register(_classCallCheck, '_classCallCheck', '/Users/bschmeisser/projects/example/app/js/app.js');
+	  __REACT_HOT_LOADER__.register(_classCallCheck, '_classCallCheck', '/Users/bschmeisser/projects/synthetic-multiverse/app/js/app.js');
 
-	  __REACT_HOT_LOADER__.register(_possibleConstructorReturn, '_possibleConstructorReturn', '/Users/bschmeisser/projects/example/app/js/app.js');
+	  __REACT_HOT_LOADER__.register(_possibleConstructorReturn, '_possibleConstructorReturn', '/Users/bschmeisser/projects/synthetic-multiverse/app/js/app.js');
 
-	  __REACT_HOT_LOADER__.register(_inherits, '_inherits', '/Users/bschmeisser/projects/example/app/js/app.js');
+	  __REACT_HOT_LOADER__.register(_inherits, '_inherits', '/Users/bschmeisser/projects/synthetic-multiverse/app/js/app.js');
 
-	  __REACT_HOT_LOADER__.register(App, 'App', '/Users/bschmeisser/projects/example/app/js/app.js');
+	  __REACT_HOT_LOADER__.register(App, 'App', '/Users/bschmeisser/projects/synthetic-multiverse/app/js/app.js');
 
-	  __REACT_HOT_LOADER__.register(trackRouteChange, 'trackRouteChange', '/Users/bschmeisser/projects/example/app/js/app.js');
+	  __REACT_HOT_LOADER__.register(trackRouteChange, 'trackRouteChange', '/Users/bschmeisser/projects/synthetic-multiverse/app/js/app.js');
 
-	  __REACT_HOT_LOADER__.register(trackLoad, 'trackLoad', '/Users/bschmeisser/projects/example/app/js/app.js');
+	  __REACT_HOT_LOADER__.register(trackLoad, 'trackLoad', '/Users/bschmeisser/projects/synthetic-multiverse/app/js/app.js');
 
-	  __REACT_HOT_LOADER__.register(routes, 'routes', '/Users/bschmeisser/projects/example/app/js/app.js');
+	  __REACT_HOT_LOADER__.register(routes, 'routes', '/Users/bschmeisser/projects/synthetic-multiverse/app/js/app.js');
 
-	  __REACT_HOT_LOADER__.register(_temp, '_temp', '/Users/bschmeisser/projects/example/app/js/app.js');
+	  __REACT_HOT_LOADER__.register(_temp, '_temp', '/Users/bschmeisser/projects/synthetic-multiverse/app/js/app.js');
 	}();
 
 	;
@@ -27305,7 +27305,7 @@
 	    return;
 	  }
 
-	  __REACT_HOT_LOADER__.register(Header, 'Header', '/Users/bschmeisser/projects/example/app/js/components/header.js');
+	  __REACT_HOT_LOADER__.register(Header, 'Header', '/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/header.js');
 	}();
 
 	;
@@ -27316,21 +27316,21 @@
 	    return;
 	  }
 
-	  __REACT_HOT_LOADER__.register(_createClass, "_createClass", "/Users/bschmeisser/projects/example/app/js/components/header.js");
+	  __REACT_HOT_LOADER__.register(_createClass, "_createClass", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/header.js");
 
-	  __REACT_HOT_LOADER__.register(_react2, "_react2", "/Users/bschmeisser/projects/example/app/js/components/header.js");
+	  __REACT_HOT_LOADER__.register(_react2, "_react2", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/header.js");
 
-	  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/bschmeisser/projects/example/app/js/components/header.js");
+	  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/header.js");
 
-	  __REACT_HOT_LOADER__.register(_classCallCheck, "_classCallCheck", "/Users/bschmeisser/projects/example/app/js/components/header.js");
+	  __REACT_HOT_LOADER__.register(_classCallCheck, "_classCallCheck", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/header.js");
 
-	  __REACT_HOT_LOADER__.register(_possibleConstructorReturn, "_possibleConstructorReturn", "/Users/bschmeisser/projects/example/app/js/components/header.js");
+	  __REACT_HOT_LOADER__.register(_possibleConstructorReturn, "_possibleConstructorReturn", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/header.js");
 
-	  __REACT_HOT_LOADER__.register(_inherits, "_inherits", "/Users/bschmeisser/projects/example/app/js/components/header.js");
+	  __REACT_HOT_LOADER__.register(_inherits, "_inherits", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/header.js");
 
-	  __REACT_HOT_LOADER__.register(Header, "Header", "/Users/bschmeisser/projects/example/app/js/components/header.js");
+	  __REACT_HOT_LOADER__.register(Header, "Header", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/header.js");
 
-	  __REACT_HOT_LOADER__.register(_temp, "_temp", "/Users/bschmeisser/projects/example/app/js/components/header.js");
+	  __REACT_HOT_LOADER__.register(_temp, "_temp", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/header.js");
 	}();
 
 	;
@@ -27410,7 +27410,7 @@
 	    return;
 	  }
 
-	  __REACT_HOT_LOADER__.register(Home, 'Home', '/Users/bschmeisser/projects/example/app/js/components/home.js');
+	  __REACT_HOT_LOADER__.register(Home, 'Home', '/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/home.js');
 	}();
 
 	;
@@ -27421,21 +27421,21 @@
 	    return;
 	  }
 
-	  __REACT_HOT_LOADER__.register(_createClass, "_createClass", "/Users/bschmeisser/projects/example/app/js/components/home.js");
+	  __REACT_HOT_LOADER__.register(_createClass, "_createClass", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/home.js");
 
-	  __REACT_HOT_LOADER__.register(_react2, "_react2", "/Users/bschmeisser/projects/example/app/js/components/home.js");
+	  __REACT_HOT_LOADER__.register(_react2, "_react2", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/home.js");
 
-	  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/bschmeisser/projects/example/app/js/components/home.js");
+	  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/home.js");
 
-	  __REACT_HOT_LOADER__.register(_classCallCheck, "_classCallCheck", "/Users/bschmeisser/projects/example/app/js/components/home.js");
+	  __REACT_HOT_LOADER__.register(_classCallCheck, "_classCallCheck", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/home.js");
 
-	  __REACT_HOT_LOADER__.register(_possibleConstructorReturn, "_possibleConstructorReturn", "/Users/bschmeisser/projects/example/app/js/components/home.js");
+	  __REACT_HOT_LOADER__.register(_possibleConstructorReturn, "_possibleConstructorReturn", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/home.js");
 
-	  __REACT_HOT_LOADER__.register(_inherits, "_inherits", "/Users/bschmeisser/projects/example/app/js/components/home.js");
+	  __REACT_HOT_LOADER__.register(_inherits, "_inherits", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/home.js");
 
-	  __REACT_HOT_LOADER__.register(Home, "Home", "/Users/bschmeisser/projects/example/app/js/components/home.js");
+	  __REACT_HOT_LOADER__.register(Home, "Home", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/home.js");
 
-	  __REACT_HOT_LOADER__.register(_temp, "_temp", "/Users/bschmeisser/projects/example/app/js/components/home.js");
+	  __REACT_HOT_LOADER__.register(_temp, "_temp", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/home.js");
 	}();
 
 	;
@@ -27539,7 +27539,7 @@
 	    return;
 	  }
 
-	  __REACT_HOT_LOADER__.register(Ajax, 'Ajax', '/Users/bschmeisser/projects/example/app/js/components/ajax.js');
+	  __REACT_HOT_LOADER__.register(Ajax, 'Ajax', '/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/ajax.js');
 	}();
 
 	;
@@ -27550,23 +27550,23 @@
 	    return;
 	  }
 
-	  __REACT_HOT_LOADER__.register(_createClass, "_createClass", "/Users/bschmeisser/projects/example/app/js/components/ajax.js");
+	  __REACT_HOT_LOADER__.register(_createClass, "_createClass", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/ajax.js");
 
-	  __REACT_HOT_LOADER__.register(_react2, "_react2", "/Users/bschmeisser/projects/example/app/js/components/ajax.js");
+	  __REACT_HOT_LOADER__.register(_react2, "_react2", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/ajax.js");
 
-	  __REACT_HOT_LOADER__.register(_isomorphicFetch2, "_isomorphicFetch2", "/Users/bschmeisser/projects/example/app/js/components/ajax.js");
+	  __REACT_HOT_LOADER__.register(_isomorphicFetch2, "_isomorphicFetch2", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/ajax.js");
 
-	  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/bschmeisser/projects/example/app/js/components/ajax.js");
+	  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/ajax.js");
 
-	  __REACT_HOT_LOADER__.register(_classCallCheck, "_classCallCheck", "/Users/bschmeisser/projects/example/app/js/components/ajax.js");
+	  __REACT_HOT_LOADER__.register(_classCallCheck, "_classCallCheck", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/ajax.js");
 
-	  __REACT_HOT_LOADER__.register(_possibleConstructorReturn, "_possibleConstructorReturn", "/Users/bschmeisser/projects/example/app/js/components/ajax.js");
+	  __REACT_HOT_LOADER__.register(_possibleConstructorReturn, "_possibleConstructorReturn", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/ajax.js");
 
-	  __REACT_HOT_LOADER__.register(_inherits, "_inherits", "/Users/bschmeisser/projects/example/app/js/components/ajax.js");
+	  __REACT_HOT_LOADER__.register(_inherits, "_inherits", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/ajax.js");
 
-	  __REACT_HOT_LOADER__.register(Ajax, "Ajax", "/Users/bschmeisser/projects/example/app/js/components/ajax.js");
+	  __REACT_HOT_LOADER__.register(Ajax, "Ajax", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/ajax.js");
 
-	  __REACT_HOT_LOADER__.register(_temp, "_temp", "/Users/bschmeisser/projects/example/app/js/components/ajax.js");
+	  __REACT_HOT_LOADER__.register(_temp, "_temp", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/ajax.js");
 	}();
 
 	;
@@ -28104,7 +28104,7 @@
 	    return;
 	  }
 
-	  __REACT_HOT_LOADER__.register(Error, 'Error', '/Users/bschmeisser/projects/example/app/js/components/error.js');
+	  __REACT_HOT_LOADER__.register(Error, 'Error', '/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/error.js');
 	}();
 
 	;
@@ -28115,21 +28115,21 @@
 	    return;
 	  }
 
-	  __REACT_HOT_LOADER__.register(_createClass, "_createClass", "/Users/bschmeisser/projects/example/app/js/components/error.js");
+	  __REACT_HOT_LOADER__.register(_createClass, "_createClass", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/error.js");
 
-	  __REACT_HOT_LOADER__.register(_react2, "_react2", "/Users/bschmeisser/projects/example/app/js/components/error.js");
+	  __REACT_HOT_LOADER__.register(_react2, "_react2", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/error.js");
 
-	  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/bschmeisser/projects/example/app/js/components/error.js");
+	  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/error.js");
 
-	  __REACT_HOT_LOADER__.register(_classCallCheck, "_classCallCheck", "/Users/bschmeisser/projects/example/app/js/components/error.js");
+	  __REACT_HOT_LOADER__.register(_classCallCheck, "_classCallCheck", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/error.js");
 
-	  __REACT_HOT_LOADER__.register(_possibleConstructorReturn, "_possibleConstructorReturn", "/Users/bschmeisser/projects/example/app/js/components/error.js");
+	  __REACT_HOT_LOADER__.register(_possibleConstructorReturn, "_possibleConstructorReturn", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/error.js");
 
-	  __REACT_HOT_LOADER__.register(_inherits, "_inherits", "/Users/bschmeisser/projects/example/app/js/components/error.js");
+	  __REACT_HOT_LOADER__.register(_inherits, "_inherits", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/error.js");
 
-	  __REACT_HOT_LOADER__.register(Error, "Error", "/Users/bschmeisser/projects/example/app/js/components/error.js");
+	  __REACT_HOT_LOADER__.register(Error, "Error", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/error.js");
 
-	  __REACT_HOT_LOADER__.register(_temp, "_temp", "/Users/bschmeisser/projects/example/app/js/components/error.js");
+	  __REACT_HOT_LOADER__.register(_temp, "_temp", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/error.js");
 	}();
 
 	;
@@ -28211,7 +28211,7 @@
 	    return;
 	  }
 
-	  __REACT_HOT_LOADER__.register(Slow, 'Slow', '/Users/bschmeisser/projects/example/app/js/components/slow.js');
+	  __REACT_HOT_LOADER__.register(Slow, 'Slow', '/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/slow.js');
 	}();
 
 	;
@@ -28222,21 +28222,21 @@
 	    return;
 	  }
 
-	  __REACT_HOT_LOADER__.register(_createClass, "_createClass", "/Users/bschmeisser/projects/example/app/js/components/slow.js");
+	  __REACT_HOT_LOADER__.register(_createClass, "_createClass", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/slow.js");
 
-	  __REACT_HOT_LOADER__.register(_react2, "_react2", "/Users/bschmeisser/projects/example/app/js/components/slow.js");
+	  __REACT_HOT_LOADER__.register(_react2, "_react2", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/slow.js");
 
-	  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/bschmeisser/projects/example/app/js/components/slow.js");
+	  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/slow.js");
 
-	  __REACT_HOT_LOADER__.register(_classCallCheck, "_classCallCheck", "/Users/bschmeisser/projects/example/app/js/components/slow.js");
+	  __REACT_HOT_LOADER__.register(_classCallCheck, "_classCallCheck", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/slow.js");
 
-	  __REACT_HOT_LOADER__.register(_possibleConstructorReturn, "_possibleConstructorReturn", "/Users/bschmeisser/projects/example/app/js/components/slow.js");
+	  __REACT_HOT_LOADER__.register(_possibleConstructorReturn, "_possibleConstructorReturn", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/slow.js");
 
-	  __REACT_HOT_LOADER__.register(_inherits, "_inherits", "/Users/bschmeisser/projects/example/app/js/components/slow.js");
+	  __REACT_HOT_LOADER__.register(_inherits, "_inherits", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/slow.js");
 
-	  __REACT_HOT_LOADER__.register(Slow, "Slow", "/Users/bschmeisser/projects/example/app/js/components/slow.js");
+	  __REACT_HOT_LOADER__.register(Slow, "Slow", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/slow.js");
 
-	  __REACT_HOT_LOADER__.register(_temp, "_temp", "/Users/bschmeisser/projects/example/app/js/components/slow.js");
+	  __REACT_HOT_LOADER__.register(_temp, "_temp", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/slow.js");
 	}();
 
 	;
@@ -28316,7 +28316,7 @@
 	    return;
 	  }
 
-	  __REACT_HOT_LOADER__.register(Links, 'Links', '/Users/bschmeisser/projects/example/app/js/components/links.js');
+	  __REACT_HOT_LOADER__.register(Links, 'Links', '/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/links.js');
 	}();
 
 	;
@@ -28327,21 +28327,21 @@
 	    return;
 	  }
 
-	  __REACT_HOT_LOADER__.register(_createClass, "_createClass", "/Users/bschmeisser/projects/example/app/js/components/links.js");
+	  __REACT_HOT_LOADER__.register(_createClass, "_createClass", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/links.js");
 
-	  __REACT_HOT_LOADER__.register(_react2, "_react2", "/Users/bschmeisser/projects/example/app/js/components/links.js");
+	  __REACT_HOT_LOADER__.register(_react2, "_react2", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/links.js");
 
-	  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/bschmeisser/projects/example/app/js/components/links.js");
+	  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/links.js");
 
-	  __REACT_HOT_LOADER__.register(_classCallCheck, "_classCallCheck", "/Users/bschmeisser/projects/example/app/js/components/links.js");
+	  __REACT_HOT_LOADER__.register(_classCallCheck, "_classCallCheck", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/links.js");
 
-	  __REACT_HOT_LOADER__.register(_possibleConstructorReturn, "_possibleConstructorReturn", "/Users/bschmeisser/projects/example/app/js/components/links.js");
+	  __REACT_HOT_LOADER__.register(_possibleConstructorReturn, "_possibleConstructorReturn", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/links.js");
 
-	  __REACT_HOT_LOADER__.register(_inherits, "_inherits", "/Users/bschmeisser/projects/example/app/js/components/links.js");
+	  __REACT_HOT_LOADER__.register(_inherits, "_inherits", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/links.js");
 
-	  __REACT_HOT_LOADER__.register(Links, "Links", "/Users/bschmeisser/projects/example/app/js/components/links.js");
+	  __REACT_HOT_LOADER__.register(Links, "Links", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/links.js");
 
-	  __REACT_HOT_LOADER__.register(_temp, "_temp", "/Users/bschmeisser/projects/example/app/js/components/links.js");
+	  __REACT_HOT_LOADER__.register(_temp, "_temp", "/Users/bschmeisser/projects/synthetic-multiverse/app/js/components/links.js");
 	}();
 
 	;
