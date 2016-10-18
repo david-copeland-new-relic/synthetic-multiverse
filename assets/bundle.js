@@ -137,7 +137,7 @@
 	  var nextRouteName = next.routes.map(function (route) {
 	    return route.path;
 	  }).filter(Boolean).join('');
-	  var routeName = 'multiverse' + nextRouteName;
+	  var routeName = nextRouteName;
 	  var interaction = newrelic.interaction();
 
 	  if (newrelic.setCurrentRouteName) {

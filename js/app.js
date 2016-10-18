@@ -29,7 +29,7 @@ class App extends Component {
 function trackRouteChange (prev, next) {
   if (!window.newrelic) return
   const nextRouteName = next.routes.map((route) => route.path).filter(Boolean).join('')
-  const routeName = `multiverse${nextRouteName}`
+  const routeName = nextRouteName
   const interaction = newrelic.interaction()
 
   if (newrelic.setCurrentRouteName) {
