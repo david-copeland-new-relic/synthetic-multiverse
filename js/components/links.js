@@ -13,7 +13,7 @@ export class Links extends Component {
         </ul>
         <h3>Synthetics</h3>
         <ul>
-          <li><a target='_blank' href='https://staging-synthetics.newrelic.com/accounts/1/monitors/7b69cf4c-2be0-4949-bb8b-476f451d746c'>Synthetics</a></li>
+          <li><a target='_blank' href='https://staging-synthetics.newrelic.com/accounts/550352/monitors/88690821-04cc-4694-9e10-d8e47ec1dd9a'>Synthetics</a></li>
         </ul>
       </div>
     )
