@@ -47,7 +47,7 @@ export class Ajax extends Component {
     return (
       <div className='images'>
         { this.state.images.map((image) => {
-          return <img src={image} />
+          return <img src={image} key={image} />
         }) }
       </div>
     )
