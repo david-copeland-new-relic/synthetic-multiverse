@@ -27548,7 +27548,7 @@
 	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement('div', { className: 'images' }, this.state.images.map(function (image) {
-	        return _react2.default.createElement('img', { src: image });
+	        return _react2.default.createElement('img', { src: image, id: image });
 	      }));
 	    }
 	  }]);
