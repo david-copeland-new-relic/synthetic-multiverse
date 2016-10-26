@@ -7,7 +7,7 @@ export class Links extends Component {
         <h3>Monitoring</h3>
         <ul>
           <li><a target='_blank' href='https://staging.newrelic.com/accounts/550352/browser/575530'>Pro Staging</a></li>
-          <li><a target='_blank' href='https://staging.newrelic.com/accounts/835096/browser/575591'>Lite Staging</a></li>
+          <li><a target='_blank' href='https://staging.newrelic.com/accounts/847846/browser/308368'>Lite Staging</a></li>
           <li><a target='_blank' href='https://rpm.newrelic.com/accounts/1/browser/27679902'>Pro Production</a></li>
           <li><a target='_blank' href='https://rpm.newrelic.com/accounts/1461294/browser/27274125'>Lite Production</a></li>
         </ul>
