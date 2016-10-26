@@ -15,6 +15,10 @@ export class Links extends Component {
         <ul>
           <li><a target='_blank' href='https://staging-synthetics.newrelic.com/accounts/550352/monitors/88690821-04cc-4694-9e10-d8e47ec1dd9a'>Synthetics</a></li>
         </ul>
+        <h3>GitHub</h3>
+        <ul>
+          <li><a target='_blank' href='https://github.com/blainesch/synthetic-multiverse'>Repo</a></li>
+        </ul>
       </div>
     )
   }
