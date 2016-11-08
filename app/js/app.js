@@ -5,7 +5,7 @@ import { Router, Route, IndexRoute, hashHistory } from 'react-router'
 import { Header } from './components/header'
 import { Home } from './components/home'
 import { Ajax } from './components/ajax'
-import { Error } from './components/error'
+import { Errors } from './components/errors'
 import { Slow } from './components/slow'
 import { Links } from './components/links'
 
@@ -50,7 +50,7 @@ const routes = (
     <Route path="/" component={App} onEnter={trackLoad} onChange={trackRouteChange}>
       <IndexRoute component={Home} />
       <Route path="ajax" component={Ajax}/>
-      <Route path="error" component={Error}/>
+      <Route path="error" component={Errors}/>
       <Route path="slow" component={Slow}/>
       <Route path="links" component={Links}/>
     </Route>
