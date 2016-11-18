@@ -20,18 +20,19 @@ export class Ajax extends Component {
   }
 
   componentWillMount () {
-    const pages = ['./giphy1.json', './giphy2.json', './giphy3.json'].sort(() => {
+    const pages = ['./api/giphy1.json', './api/giphy2.json', './api/giphy3.json']
+    const sortedPages = pages.sort(() => {
       return 0.5 - Math.random()
     })
-    retrieve(pages[0])
+    retrieve(sortedPages[0])
       .then((response) => JSON.parse(response))
       .then((json) => json.data[0].url)
       .then((first) => {
-        retrieve(pages[1])
+        retrieve(sortedPages[1])
           .then((response) => JSON.parse(response))
           .then((json) => json.data[0].url)
           .then((second) => {
-            retrieve(pages[2])
+            retrieve(sortedPages[2])
               .then((response) => JSON.parse(response))
               .then((json) => json.data[0].url)
               .then((third) => {

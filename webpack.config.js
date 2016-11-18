@@ -1,5 +1,8 @@
 var webpack = require('webpack')
 var path = require('path')
+var HtmlWebpackPlugin = require('html-webpack-plugin')
+var CopyWebpackPlugin = require('copy-webpack-plugin')
+var child_process = require('child_process')
 
 module.exports = {
   devtool: 'source-map',
@@ -7,8 +10,7 @@ module.exports = {
     app: ['./app/js/app.js'],
   },
   output: {
-    path: path.resolve(__dirname, 'app', 'assets'),
-    publicPath: '/assets/',
+    path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.min.js',
     sourceMapFilename: 'bundle.map.js',
   },
@@ -20,6 +22,14 @@ module.exports = {
     ],
   },
   plugins: [
+    new CopyWebpackPlugin([
+      { from: 'app/css/global.css' },
+      { from: 'app/api', to: 'api' },
+    ]),
+    new HtmlWebpackPlugin({
+      version: child_process.execSync('git rev-parse HEAD').slice(0, 7),
+      template: 'app/index.html',
+    }),
     new webpack.optimize.UglifyJsPlugin({
       compressor: {
         warnings: false,

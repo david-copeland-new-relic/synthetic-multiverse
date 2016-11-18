@@ -21,11 +21,12 @@
         NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"000e65ee0f",applicationID:"27274125",sa:1}
         break;
     }
+    newrelic.addReleaseId('multiverse', '<%= htmlWebpackPlugin.options.version %>')
     </script>
-    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./global.css" />
   </head>
   <body>
     <section id="react"></section>
-    <script src="./assets/bundle.min.js"></script>
+    <script src="./bundle.min.js"></script>
   </body>
 </html>
