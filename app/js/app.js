@@ -8,6 +8,7 @@ import { Ajax } from './components/ajax'
 import { Errors } from './components/errors'
 import { Slow } from './components/slow'
 import { Links } from './components/links'
+import { MoreErrors } from './components/more-errors'
 
 import promise from 'es6-promise'
 
@@ -51,6 +52,7 @@ const routes = (
       <IndexRoute component={Home} />
       <Route path="ajax" component={Ajax}/>
       <Route path="error" component={Errors}/>
+      <Route path="more-error" component={MoreErrors}/>
       <Route path="slow" component={Slow}/>
       <Route path="links" component={Links}/>
     </Route>
