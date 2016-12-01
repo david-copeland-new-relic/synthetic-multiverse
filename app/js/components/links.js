@@ -22,10 +22,10 @@ export class Links extends Component {
         <h3>Source Maps</h3>
         <ul>
           <li>
-            <a href='https://github.com/blainesch/synthetic-multiverse/blob/gh-pages/bundle.map.js'>Synthetic Multiverse source map</a>
+            <a href='http://blainesch.com/synthetic-multiverse/bundle.map.js'>Synthetic Multiverse source map</a>
           </li>
           <li>
-            <a href='https://code.jquery.com/jquery-3.1.1.min.map'>jQuery 3.1.1 source map</a>
+            <a href='http://blainesch.com/synthetic-multiverse/vendor/jquery.min.map'>jQuery 3.1.1 source map</a>
           </li>
         </ul>
       </div>
