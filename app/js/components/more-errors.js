@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 // now with jQuery! for extra source-map fun.
 export class MoreErrors extends Component {
-  render() {
+  componentWillMount () {
     try {
       $(function() {
         throw new Error('jQueryWhoops!')
@@ -10,6 +10,9 @@ export class MoreErrors extends Component {
     } catch (e) {
       newrelic.noticeError(e)
     }
+  }
+
+  render() {
     return <span>We threw a jQuery-flavored error!</span>
   }
 }
