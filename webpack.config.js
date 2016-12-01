@@ -25,6 +25,7 @@ module.exports = {
     new CopyWebpackPlugin([
       { from: 'app/css/global.css' },
       { from: 'app/api', to: 'api' },
+      { from: 'app/vendor', to: 'vendor' },
     ]),
     new HtmlWebpackPlugin({
       version: child_process.execSync('git rev-parse HEAD').slice(0, 7),
