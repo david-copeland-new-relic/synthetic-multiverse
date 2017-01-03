@@ -44,12 +44,29 @@ export class Ajax extends Component {
       })
   }
 
+  makeAjaxCall = () => {
+    retrieve('./api/giphy1.json')
+      .then((response) => JSON.parse(response))
+      .then((json) => {
+        var images = this.state.images.slice(0)
+        images.push(json.data[0].url)
+        this.setState({
+          images,
+        })
+      })
+
+    if (typeof newrelic == 'object') {
+      newrelic.setCustomAttribute('buttonClick', 1);
+    }
+  }
+
   render() {
     return (
       <div className='images'>
-        { this.state.images.map((image) => {
-          return <img src={image} key={image} />
+        { this.state.images.map((image, i) => {
+          return <img src={image} key={i} />
         }) }
+        <button onClick={this.makeAjaxCall}>Show me more doggies!</button>
       </div>
     )
   }
