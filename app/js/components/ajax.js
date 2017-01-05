@@ -56,7 +56,7 @@ export class Ajax extends Component {
       })
 
     if (typeof newrelic == 'object') {
-      newrelic.setCustomAttribute('buttonClick', 1);
+      newrelic.interaction().setName('ajaxNotRouteChange').save()
     }
   }
 
