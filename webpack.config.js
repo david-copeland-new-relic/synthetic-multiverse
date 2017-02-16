@@ -24,6 +24,7 @@ module.exports = {
   plugins: [
     new CopyWebpackPlugin([
       { from: 'app/css/global.css' },
+      { from: 'app/main.js' },
       { from: 'app/api', to: 'api' },
       { from: 'app/vendor', to: 'vendor' },
     ]),
