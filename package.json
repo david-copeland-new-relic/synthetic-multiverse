@@ -4,8 +4,8 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "prestart": "rm -rf app/build",
-    "start": "webpack-dev-server --inline --progress --colors --content-base app/",
+    "prestart": "npm run build",
+    "start": "electron ./app/main.js",
     "prebuild": "rm -rf dist",
     "build": "webpack --progress --colors",
     "predocs:publish": "npm run build",
@@ -28,6 +28,7 @@
     "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
+    "electron": "^1.4.15",
     "es6-promise": "^4.0.5",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
