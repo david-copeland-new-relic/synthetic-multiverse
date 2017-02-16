@@ -54,10 +54,6 @@ export class Ajax extends Component {
           images,
         })
       })
-
-    if (typeof newrelic == 'object') {
-      newrelic.setCustomAttribute('buttonClick', 1);
-    }
   }
 
   render() {

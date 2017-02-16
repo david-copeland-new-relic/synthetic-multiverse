@@ -27,28 +27,9 @@ class App extends Component {
   }
 }
 
-function trackRouteChange (prev, next) {
-  if (!window.newrelic) return
-  const nextRouteName = next.routes.map((route) => route.path).filter(Boolean).join('')
-  const routeName = nextRouteName
-  const interaction = newrelic.interaction()
-
-  if (newrelic.setCurrentRouteName) {
-    newrelic.setCurrentRouteName(routeName)
-  } else {
-    interaction.setName(routeName)
-  }
-
-  Object.keys(next.params).forEach((key) => interaction.setAttribute(key, next.params[key]))
-}
-
-function trackLoad (nextState, replace) {
-  trackRouteChange(nextState, nextState)
-}
-
 const routes = (
   <Router history={hashHistory}>
-    <Route path="/" component={App} onEnter={trackLoad} onChange={trackRouteChange}>
+    <Route path="/" component={App}>
       <IndexRoute component={Home} />
       <Route path="ajax" component={Ajax}/>
       <Route path="error" component={Errors}/>
