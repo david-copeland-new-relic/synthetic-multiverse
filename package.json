@@ -5,7 +5,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "prestart": "npm run build",
-    "start": "electron ./app/main.js",
+    "start": "electron ./dist/main.js",
     "prebuild": "rm -rf dist",
     "build": "webpack --progress --colors",
     "predocs:publish": "npm run build",
