@@ -28,7 +28,7 @@ module.exports = {
       { from: 'app/vendor', to: 'vendor' },
     ]),
     new HtmlWebpackPlugin({
-      version: '☃',
+      version: child_process.execSync('git rev-parse HEAD').slice(0, 7),
       template: 'app/index.html',
     }),
     new webpack.optimize.UglifyJsPlugin({
