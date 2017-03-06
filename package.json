@@ -8,8 +8,8 @@
     "start": "webpack-dev-server --inline --progress --colors --content-base app/",
     "prebuild": "rm -rf dist",
     "build": "webpack --progress --colors",
-    "predocs:publish": "npm run build",
-    "docs:publish": "gh-pages -t -d ./dist"
+    "prepublish": "npm run build",
+    "publish": "gh-pages -t -d ./dist"
   },
   "author": "Blaine Schmeisser",
   "license": "Unlicense",

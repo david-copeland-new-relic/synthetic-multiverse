@@ -17,3 +17,9 @@ The local site can be accessed at `localhost:8080`.
 ~~~
 npm start
 ~~~
+
+## Publishing
+
+~~~
+npm run publish
+~~~
