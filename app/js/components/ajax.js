@@ -45,6 +45,10 @@ export class Ajax extends Component {
   }
 
   makeAjaxCall = () => {
+    window.newrelic && newrelic.addPageAction('makingAjaxCall', {
+      myCustomAttr: 'myCustomValue'
+    })
+    
     retrieve('./api/giphy1.json')
       .then((response) => JSON.parse(response))
       .then((json) => {
