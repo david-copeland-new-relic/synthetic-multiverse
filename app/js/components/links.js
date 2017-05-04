@@ -10,7 +10,7 @@ export class Links extends Component {
           <li><a target='_blank' href='https://staging.newrelic.com/accounts/847846/browser/308368'>Lite Staging</a></li>
           <li><a target='_blank' href='https://rpm.newrelic.com/accounts/1343512/browser/34738942'>Pro Production</a></li>
           <li><a target='_blank' href='https://rpm.newrelic.com/accounts/1461294/browser/27274125'>Lite Production</a></li>
-          <li><a target='_blank' href='https://rpm.newrelic.com/accounts/550352/browser/950582'>Bookstein Staging</a></li>
+          <li><a target='_blank' href='https://staging.newrelic.com/accounts/550352/browser/950582'>Bookstein Staging</a></li>
           <li><a target='_blank' href='https://rpm.newrelic.com/accounts/1343512/browser/51251091'>Bookstein Production</a></li>
         </ul>
         <h3>Synthetics</h3>
